@@ -1,7 +1,7 @@
 self.addEventListener("install", (event) => {
     event.waitUntil(
       caches.open("tithing-tracker").then((cache) => {
-        return cache.addAll(["/", "/index.html", "/styles.css", "/app.js"]);
+        return cache.addAll(["/tithingtracker/", "/tithingtracker/index.html", "/tithingtracker/styles.css", "/tithingtracker/app.js"]);
       })
     );
   });
