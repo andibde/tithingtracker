@@ -2,7 +2,7 @@
 const GITHUB_USERNAME = "andibde";
 const REPO_NAME = "tithingtracker";
 const FILE_PATH = "data.json";
-const TOKEN = "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";
+const TOKEN = "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";
 const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${FILE_PATH}`;
 
 // HTML Elements
