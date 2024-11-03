@@ -1,17 +1,19 @@
 {
-    "name": "Tithing Tracker",
-    "short_name": "TitheTracker",
-    "description": "Github Page as a Progressive Web App",
-    "scope": "/tithingtracker/",
-    "start_url": "/tithingtracker/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#00796b",
-    "icons": [
-      {
-        "src": "icon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "Tithing Tracker",
+  "short_name": "TitheTracker",
+  "description": "A simple app to keep track of your givings to church",
+  "start_url": "/tithingtracker/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00796b",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "id": "tt",
+  "scope": "/tithingtracker/",
+  "orientation": "portrait"
+}
