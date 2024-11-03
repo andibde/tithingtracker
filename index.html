@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tithing Tracker</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tithing Tracker</h1>
+  
+  <!-- Tithing Entry Form -->
+  <section id="entry-section">
+    <h2>Enter Your Tithing</h2>
+    <input type="number" id="amount" placeholder="Amount (€)" />
+    <button id="submit-entry">Submit</button>
+  </section>
+
+  <!-- Monthly and Yearly Views -->
+  <section id="view-section">
+    <h2>View Tithings</h2>
+    <label for="month-select">Select Month:</label>
+    <select id="month-select">
+      <option value="current">Current Month</option>
+    </select>
+    <button id="view-year">View Yearly Overview</button>
+  </section>
+
+  <!-- Dashboard Section -->
+  <section id="dashboard">
+    <h2>Dashboard</h2>
+    <p><strong>Total Tithing for Selected Month:</strong> €<span id="total-tithing">0</span></p>
+    <p><strong>Remaining to Reach Goal:</strong> €<span id="remaining-goal">100</span></p>
+    <ul id="entries-list"></ul>
+  </section>
+
+  <!-- Edit Form -->
+  <section id="edit-section" style="display: none;">
+    <h2>Edit Entry</h2>
+    <input type="number" id="edit-amount" placeholder="New Amount (€)">
+    <input type="date" id="edit-date">
+    <button id="save-edit">Save</button>
+    <button id="cancel-edit">Cancel</button>
+  </section>
+
+  <!-- Yearly Summary -->
+  <section id="yearly-summary" style="display: none;">
+    <h2>Yearly Summary</h2>
+    <ul id="yearly-list"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
