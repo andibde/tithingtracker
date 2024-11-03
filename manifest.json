@@ -2,8 +2,8 @@
     "name": "Tithing Tracker",
     "short_name": "TitheTracker",
     "description": "Github Page as a Progressive Web App",
-
-    "start_url": "/",
+    "scope": "/tithingtracker/",
+    "start_url": "/tithingtracker/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#00796b",
